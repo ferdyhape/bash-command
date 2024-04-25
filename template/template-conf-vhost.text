@@ -1,0 +1,11 @@
+# Virtual host for {project_name}
+<VirtualHost *:80>
+    DocumentRoot {file_path}
+    ServerName {project_name}
+    <Directory {file_path}>
+        Options FollowSymLinks
+        AllowOverride Limit Options FileInfo
+        DirectoryIndex {dir_index}
+        Require all granted
+    </Directory>
+</VirtualHost>

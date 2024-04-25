@@ -1,0 +1,3 @@
+1. buat file ber ekstensi .sh
+2. ijinkan file tersebut untuk di eksekusi dengan perintah "chmod +x namafile.sh" (untuk sekalian mengijinkan semua file yang ada pada folder ini dengan menjalankan command "chmod -R +x .")
+3. jalankan file script tersebut dengan perintah ./namafile.sh
